@@ -7,6 +7,7 @@
 body {
     text-align: center;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     background-color: silver;
 }
@@ -39,7 +40,7 @@ p {
 .div1,
 .div2,
 .div3 {
-    margin-top: 100px;
+    margin-top: 10px;
     width: 24%;
     height: 100%;
     position: relative;
@@ -105,4 +106,13 @@ button {
     background-color: hsl(179, 100%, 13%);
     color: hsl(0, 0%, 95%);
     border-color: hsl(0, 0%, 95%);
+}
+
+.head a {
+    text-decoration: none;
+    color: black;
+}
+
+.head:hover {
+    opacity: 0.4;
 }
